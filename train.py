@@ -357,7 +357,7 @@ class TextGenerator:
                 if not char:
                     break
                 if char == '\\':
-                    break  # seen -1
+                    break 
                 text.append(char)
             text = ''.join(text)
             with open("user_text.txt", "w") as f:
