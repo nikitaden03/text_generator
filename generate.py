@@ -41,4 +41,4 @@ with open(model_path, 'rb') as f:
 
 model.set_seed(2025)
 
-print(model.generate(prefix, length, True))
+print(model.generate(prefix, length, advance))
